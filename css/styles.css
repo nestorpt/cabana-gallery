@@ -1,10 +1,10 @@
 @font-face {
     font-family: "desdemon";
-    src: url("fonts/desdemon.ttf");
+    src: url("../fonts/desdemon.ttf");
 }
 
 body {
-    background-image: url("media/fondo.jpg");
+    background-image: url("../media/fondo.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
