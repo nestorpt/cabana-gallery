@@ -5,6 +5,7 @@
 
 body {
     background-image: url("../media/fondo.jpg");
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -41,7 +42,8 @@ header {
     font-family: "Roboto Mono";
     font-size: 25px;
     padding-left: 25px;
-    align-items: center;
+    padding-right: 25px;
+    align-items: center
 }
 
 .caja-imagen {
@@ -81,4 +83,29 @@ footer {
 
 .media-link-text {
     margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 35px;
+        text-align: center;
+    }
+    .contenedor {
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0px 0px 0px 0px;
+    }
+    .caja {
+        width: 80%;
+        height: 250px;
+        margin: 10px auto 20px auto;
+    }
+    .caja-titulo {
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .media-link-text {
+        color: rgba(100%, 100%, 100%, 0.0);
+    }
 }
